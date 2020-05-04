@@ -23,21 +23,6 @@ f = open('characters.csv', 'x')
 for line in characters:
     f.write(line + "\n")
 
-'''
-f = open('acceleration.csv', 'w')
-for line in acceleration:
-    for item in line:
-        f.write(item + ";")
-    f.write("\n")
-'''
-'''
-f = open('air_speed.csv', 'x')
-for line in air_speed:
-    for item in line:
-        f.write(item + ";")
-    f.write("\n")
-'''
-
 
 def table_to_file():
     for table in tables:
